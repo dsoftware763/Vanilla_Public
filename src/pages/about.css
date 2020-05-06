@@ -1,0 +1,26 @@
+.about-photo-container {
+  text-align: center;
+  margin: 80px 4% 0;
+}
+.photo-row-1 {
+  margin-top: 40px;
+}
+.about-photo {
+  margin: 4px;
+  border-radius: 4px;
+}
+.about-photo-container p {
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .about-photo {
+    width: 600px;
+  }
+
+  .photo-row-1,
+  .photo-row-2 {
+    max-width: 100%;
+    display: flex;
+  }
+}

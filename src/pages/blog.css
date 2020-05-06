@@ -1,0 +1,28 @@
+.blog-root{
+    background-color: #f5efe0;
+    display: block;
+    word-break: 'break-word'; 
+    word-wrap: 'break-word';
+}
+.blog-content{
+    padding-top: 1rem;
+    word-break: 'break-word'; 
+    word-wrap: 'break-word';
+    max-width: 58rem;
+    width: calc(100% - 4rem);
+}
+.blog-heading{
+    padding: '8rem 10px 0 10px';
+    margin-left: 'auto'; 
+    margin-right: 'auto'; 
+    width: calc(100% - 8rem)
+}
+.blog-seperator{
+    color:'#6d6d6d';
+    background: linear-gradient(to left, currentColor calc(50% - 16px), transparent calc(50% - 16px), transparent calc(50% + 16px), currentColor calc(50% + 16px));
+    background-color: transparent !important;
+    border: none;
+    height: 0.1rem;
+    overflow: visible;
+    position: relative;
+}

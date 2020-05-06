@@ -1,0 +1,13 @@
+{
+    "home": "Home",
+    "homeLink": "/",
+    "about": "About",
+    "aboutLink": "/about",
+    "services": "Services",
+    "contact": "Contact",
+    "contactLink": "/contact",
+    "linkGetStarted": "/get-started",
+    "textGetStarted": "Start from here"
+}
+
+

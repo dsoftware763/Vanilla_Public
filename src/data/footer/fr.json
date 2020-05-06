@@ -1,0 +1,12 @@
+{
+    "home": "Home",
+    "homeLink": "/",
+    "about": "About",
+    "aboutLink": "/about",
+    "services": "Services",
+    "contact": "Contact",
+    "contactLink": "/contact",
+    "flagItalyLink": "/",
+    "flagUkLink": "/en",
+    "flagFranceLink": "/fr"
+}

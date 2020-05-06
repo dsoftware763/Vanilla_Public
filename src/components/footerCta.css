@@ -1,0 +1,39 @@
+.footerCta{
+    background-color: #272727;
+    position: relative;
+    top: 25px;
+}
+.footerCta-container{
+  padding: 60px 40px;
+}
+
+.footerCta-cta h2{
+    color: #fff
+}
+.footerCta-subtitle {
+    color: #b2b2b2;
+    margin-bottom: 60px
+}
+.divider-footerCta{
+    height: 40px;
+    background-color: #272727;
+    border-bottom: 1px solid #777;
+    width: 90%;
+    margin: 0 auto
+   
+}
+@media(min-width: 768px){
+    .footerCta{
+        margin: 0 4%;
+        border-radius: 16px;
+        text-align: center
+    }
+    .footerCta-cta{
+        width: 550px;
+        margin: 0 auto
+    }
+    .divider-footerCta{
+        width: 80%
+    }
+
+}

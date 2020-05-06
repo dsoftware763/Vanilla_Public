@@ -1,0 +1,96 @@
+.get-started-section {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.header-get-started {
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 15px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, .9);
+    backdrop-filter: blur(5px);
+    height: 90px;
+    
+  }
+  .get-started-section{
+      margin-top: 180px;
+      margin-bottom: 60px
+  }
+.get-started-section span {
+  color: #777;
+}
+
+.get-started-section input,
+.get-started-section textarea {
+  border-radius: 28px;
+  background-color: #f5f9fa;
+  border: 2px solid #f5f9fa;
+  width: 100%;
+  font-size: 14px;
+}
+
+.get-started-section input {
+  padding: 15px 10px;
+  margin-bottom: 20px;
+}
+.get-started-section textarea {
+  padding: 15px 10px 60px;
+  border: 2px solid #f5f9fa;
+}
+
+.get-started-section input:focus,
+.get-started-section textarea:focus {
+  outline-width: 0;
+  border: 2px solid #272727;
+}
+
+.get-started-section form button {
+  background-color: #f6ec32;
+  width: 100%;
+  border-radius: 28px;
+  padding: 12px 0;
+  margin: 20px 0 80px;
+  border: none;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+.get-started-section form button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px 0px rgba(12, 5, 5, 0.4);
+}
+.get-started-section form button:focus {
+  outline-width: 0;
+}
+.reject-text{
+  display: none
+}
+@media (min-width: 1200px) {
+  .header-get-started {
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 130px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, .9);
+    backdrop-filter: blur(5px);
+    height: 90px;
+    
+  }
+  .get-started-section {
+    width: 50%;
+  }
+  .get-started-section span {
+    color: #777;
+    display: block;
+    margin: 0 10px;
+  }
+  .reject-text{
+    display: block
+  }
+}

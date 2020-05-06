@@ -1,0 +1,11 @@
+{
+    "home": "Home",
+    "homeLink": "/",
+    "about": "Chi siamo",
+    "aboutLink": "/chi-siamo",
+    "services": "Servizi",
+    "contact": "Contatti",
+    "contactLink": "/contatti",
+    "linkGetStarted": "/richiedi-un-preventivo",
+    "textGetStarted": "Comincia da qui"
+}

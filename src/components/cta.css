@@ -1,0 +1,16 @@
+.cta {
+  text-decoration: none;
+  background-color: #f6ec32;
+  border-radius: 28px;
+  color: #272727;
+  padding: 16px 0;
+  font-size: 14px;
+  box-shadow: 0px 0px 10px 0px rgba(12, 5, 5, 0.2);
+  min-width: 200px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+.cta:hover {
+  box-shadow: 0px 0px 20px 0px rgba(12, 5, 5, 0.4);
+}
